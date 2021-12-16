@@ -1,0 +1,112 @@
+[2021-12-13 03:33:10,727] {processor.py:163} INFO - Started process (PID=32595) to work on /opt/airflow/dags/VegasPipeline/__init__.py
+[2021-12-13 03:33:10,732] {processor.py:625} INFO - Processing file /opt/airflow/dags/VegasPipeline/__init__.py for tasks to queue
+[2021-12-13 03:33:10,734] {logging_mixin.py:109} INFO - [2021-12-13 03:33:10,734] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/VegasPipeline/__init__.py
+[2021-12-13 03:33:12,901] {logging_mixin.py:109} INFO - [2021-12-13 03:33:12,876] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/VegasPipeline/__init__.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/VegasPipeline/__init__.py", line 6, in <module>
+    from pipeline_tools import run_transform_gbq
+  File "/opt/airflow/plugins/pipeline_tools.py", line 4, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+[2021-12-13 03:33:12,945] {processor.py:639} WARNING - No viable dags retrieved from /opt/airflow/dags/VegasPipeline/__init__.py
+[2021-12-13 03:33:12,984] {processor.py:171} INFO - Processing /opt/airflow/dags/VegasPipeline/__init__.py took 2.274 seconds
+[2021-12-13 03:33:43,203] {processor.py:163} INFO - Started process (PID=32624) to work on /opt/airflow/dags/VegasPipeline/__init__.py
+[2021-12-13 03:33:43,204] {processor.py:625} INFO - Processing file /opt/airflow/dags/VegasPipeline/__init__.py for tasks to queue
+[2021-12-13 03:33:43,205] {logging_mixin.py:109} INFO - [2021-12-13 03:33:43,205] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/VegasPipeline/__init__.py
+[2021-12-13 03:33:43,996] {logging_mixin.py:109} INFO - [2021-12-13 03:33:43,988] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/VegasPipeline/__init__.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/VegasPipeline/__init__.py", line 6, in <module>
+    from pipeline_tools import run_transform_gbq
+  File "/opt/airflow/plugins/pipeline_tools.py", line 4, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+[2021-12-13 03:33:44,014] {processor.py:639} WARNING - No viable dags retrieved from /opt/airflow/dags/VegasPipeline/__init__.py
+[2021-12-13 03:33:44,022] {processor.py:171} INFO - Processing /opt/airflow/dags/VegasPipeline/__init__.py took 0.824 seconds
+[2021-12-13 03:34:14,494] {processor.py:163} INFO - Started process (PID=32652) to work on /opt/airflow/dags/VegasPipeline/__init__.py
+[2021-12-13 03:34:14,509] {processor.py:625} INFO - Processing file /opt/airflow/dags/VegasPipeline/__init__.py for tasks to queue
+[2021-12-13 03:34:14,512] {logging_mixin.py:109} INFO - [2021-12-13 03:34:14,511] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/VegasPipeline/__init__.py
+[2021-12-13 03:34:18,514] {logging_mixin.py:109} INFO - [2021-12-13 03:34:18,449] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/VegasPipeline/__init__.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/VegasPipeline/__init__.py", line 6, in <module>
+    from pipeline_tools import run_transform_gbq
+  File "/opt/airflow/plugins/pipeline_tools.py", line 4, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+[2021-12-13 03:34:18,630] {processor.py:639} WARNING - No viable dags retrieved from /opt/airflow/dags/VegasPipeline/__init__.py
+[2021-12-13 03:34:18,681] {processor.py:171} INFO - Processing /opt/airflow/dags/VegasPipeline/__init__.py took 4.207 seconds
+[2021-12-13 03:34:49,042] {processor.py:163} INFO - Started process (PID=32679) to work on /opt/airflow/dags/VegasPipeline/__init__.py
+[2021-12-13 03:34:49,057] {processor.py:625} INFO - Processing file /opt/airflow/dags/VegasPipeline/__init__.py for tasks to queue
+[2021-12-13 03:34:49,061] {logging_mixin.py:109} INFO - [2021-12-13 03:34:49,060] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/VegasPipeline/__init__.py
+[2021-12-13 03:34:52,371] {logging_mixin.py:109} INFO - [2021-12-13 03:34:52,357] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/VegasPipeline/__init__.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/VegasPipeline/__init__.py", line 6, in <module>
+    from pipeline_tools import run_transform_gbq
+  File "/opt/airflow/plugins/pipeline_tools.py", line 4, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+[2021-12-13 03:34:52,419] {processor.py:639} WARNING - No viable dags retrieved from /opt/airflow/dags/VegasPipeline/__init__.py
+[2021-12-13 03:34:52,437] {processor.py:171} INFO - Processing /opt/airflow/dags/VegasPipeline/__init__.py took 3.409 seconds
+[2021-12-13 03:35:22,698] {processor.py:163} INFO - Started process (PID=32699) to work on /opt/airflow/dags/VegasPipeline/__init__.py
+[2021-12-13 03:35:22,701] {processor.py:625} INFO - Processing file /opt/airflow/dags/VegasPipeline/__init__.py for tasks to queue
+[2021-12-13 03:35:22,703] {logging_mixin.py:109} INFO - [2021-12-13 03:35:22,703] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/VegasPipeline/__init__.py
+[2021-12-13 03:35:24,078] {logging_mixin.py:109} INFO - [2021-12-13 03:35:24,064] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/VegasPipeline/__init__.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/VegasPipeline/__init__.py", line 6, in <module>
+    from pipeline_tools import run_transform_gbq
+  File "/opt/airflow/plugins/pipeline_tools.py", line 4, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+[2021-12-13 03:35:24,107] {processor.py:639} WARNING - No viable dags retrieved from /opt/airflow/dags/VegasPipeline/__init__.py
+[2021-12-13 03:35:24,122] {processor.py:171} INFO - Processing /opt/airflow/dags/VegasPipeline/__init__.py took 1.431 seconds
+[2021-12-13 03:35:54,355] {processor.py:163} INFO - Started process (PID=32729) to work on /opt/airflow/dags/VegasPipeline/__init__.py
+[2021-12-13 03:35:54,359] {processor.py:625} INFO - Processing file /opt/airflow/dags/VegasPipeline/__init__.py for tasks to queue
+[2021-12-13 03:35:54,361] {logging_mixin.py:109} INFO - [2021-12-13 03:35:54,361] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/VegasPipeline/__init__.py
+[2021-12-13 03:35:55,657] {logging_mixin.py:109} INFO - [2021-12-13 03:35:55,644] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/VegasPipeline/__init__.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/VegasPipeline/__init__.py", line 6, in <module>
+    from pipeline_tools import run_transform_gbq
+  File "/opt/airflow/plugins/pipeline_tools.py", line 4, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+[2021-12-13 03:35:55,679] {processor.py:639} WARNING - No viable dags retrieved from /opt/airflow/dags/VegasPipeline/__init__.py
+[2021-12-13 03:35:55,689] {processor.py:171} INFO - Processing /opt/airflow/dags/VegasPipeline/__init__.py took 1.342 seconds
+[2021-12-13 03:36:25,978] {processor.py:163} INFO - Started process (PID=32757) to work on /opt/airflow/dags/VegasPipeline/__init__.py
+[2021-12-13 03:36:25,982] {processor.py:625} INFO - Processing file /opt/airflow/dags/VegasPipeline/__init__.py for tasks to queue
+[2021-12-13 03:36:25,984] {logging_mixin.py:109} INFO - [2021-12-13 03:36:25,983] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/VegasPipeline/__init__.py
+[2021-12-13 03:36:27,550] {logging_mixin.py:109} INFO - [2021-12-13 03:36:27,535] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/VegasPipeline/__init__.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/VegasPipeline/__init__.py", line 6, in <module>
+    from pipeline_tools import run_transform_gbq
+  File "/opt/airflow/plugins/pipeline_tools.py", line 4, in <module>
+    import geopandas as gpd
+ModuleNotFoundError: No module named 'geopandas'
+[2021-12-13 03:36:27,580] {processor.py:639} WARNING - No viable dags retrieved from /opt/airflow/dags/VegasPipeline/__init__.py
+[2021-12-13 03:36:27,594] {processor.py:171} INFO - Processing /opt/airflow/dags/VegasPipeline/__init__.py took 1.625 seconds
